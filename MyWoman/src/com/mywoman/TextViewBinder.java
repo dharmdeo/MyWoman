@@ -22,4 +22,8 @@ public class TextViewBinder {
 		for(int i = 0;i<len;i++)
 			binder.get(i).setTextSize(size);
 	}
+	
+	public void setText(int pos, String text){
+		binder.get(pos).setText(text);
+	}
 }
